@@ -3,6 +3,7 @@ import './App.css'
 import { useRoutes } from 'react-router-dom'
 import WeaponPage from './Pages/WeaponPage'
 import MainPage from './Pages/MainPage'
+import WeaponDetails from './Pages/WeaponDetails'
 
 function App() {
 
@@ -13,9 +14,12 @@ function App() {
       element: <MainPage />
     },
     {
-      //productdetails Page
       path: '/weapons',
       element: <WeaponPage />
+    },
+    {
+      path: '/weapons/:weaponName',
+      element: <WeaponDetails />
     },
 
   ]);
