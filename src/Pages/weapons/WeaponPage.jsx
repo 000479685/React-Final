@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Container, Typography } from '@mui/material';
-import WeaponList from '../components/WeaponList';
-import NavigationDrawer from '../components/NavigationDrawer';
+import WeaponList from '../../components/weapon_components/WeaponList';
+import NavigationDrawer from '../../components/weapon_components/NavigationDrawer';
 
 const WeaponPage = () => {
   return (

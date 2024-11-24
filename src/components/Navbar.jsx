@@ -1,5 +1,6 @@
+import { AppBar, Box, Button, Toolbar } from '@mui/material';
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom';
 const Navbar = () =>
 {
     
@@ -14,11 +15,11 @@ const Navbar = () =>
 
     return (
         <AppBar style={{display:'flex', alignItems: 'flex-end'}}>
-            <toolbar>
+            <Toolbar>
                 <Box display="flex" alignItems="flex-end">
                     <Button onClick={handleSignout} variant="outlined" style={{ color: 'white', border: '1px solid white' }}>Signout</Button>
                 </Box>
-            </toolbar>
+            </Toolbar>
         </AppBar>
     )
 }
