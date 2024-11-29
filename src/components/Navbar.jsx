@@ -14,7 +14,7 @@ const Navbar = () =>
     }
 
     return (
-        <AppBar style={{display:'flex', alignItems: 'flex-end'}}>
+        <AppBar position='static' enableColorOnDark style={{display:'flex', alignItems: 'flex-end', color: 'red'}}>
             <Toolbar>
                 <Box display="flex" alignItems="flex-end">
                     <Button onClick={handleSignout} variant="outlined" style={{ color: 'white', border: '1px solid white' }}>Signout</Button>

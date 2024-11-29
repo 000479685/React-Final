@@ -3,8 +3,9 @@ import {useRoutes} from 'react-router-dom'
 import Navbar from './components/navBar'
 import WeaponPage from './pages/weapons/WeaponPage'
 import Homepage from './pages/HomePage'
-
 import './App.css'
+import WeaponDetails from './pages/weapons/WeaponDetails'
+import CreatePage from './pages/CreatePage'
 
 function App() {  
   const routes = useRoutes([
@@ -12,11 +13,18 @@ function App() {
       path: '/',
       element: <Homepage></Homepage>
     },
-    {
-      //productdetails Page
+    {      
       path: '/weapons',
       element: <WeaponPage />
     },
+    {
+      path: '/create',
+      element: <CreatePage/>
+    },
+    {
+      path: '/weapons/:weaponName',
+      element: <WeaponDetails/>
+    },    
   ])
 
   return (
