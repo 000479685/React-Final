@@ -4,8 +4,6 @@ import Navbar from './components/navBar'
 import WeaponPage from './pages/weapons/WeaponPage'
 import Homepage from './pages/HomePage'
 import './App.css'
-import { useRoutes } from 'react-router-dom'
-import WeaponPage from './Pages/WeaponPage'
 import MainPage from './Pages/MainPage'
 
 function App() {  
