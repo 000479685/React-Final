@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@mui/material';
 import WeaponItem from './WeaponItem';
-import weapons from '../Data/Weapons.json'; // Correct import
+import weapons from '../../Data/Weapons.json'; // Correct import
 
 const WeaponList = () => {
   return (
