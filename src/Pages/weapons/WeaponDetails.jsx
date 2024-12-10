@@ -18,9 +18,9 @@ const WeaponDetails = () => {
         alignItems: 'center',
         flexDirection: 'row',
         padding: 2,
-        bgcolor: '#3F468F',
+        bgcolor: '#1e1e2e',
         color: '#e0e0d1',
-        gap: 4, 
+        gap: 3, 
         height: '100vh', 
         width: '100vw', 
       }}
@@ -61,15 +61,14 @@ const WeaponDetails = () => {
 
       {/* Right Card */}
       <Card sx={{
-        backgroundColor: '#2e2b22',
-        color: '#d4d4c9',
+        backgroundColor: '#1e1e2e',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
       }}>
         <CardMedia
             component="img"
-            sx={{ width: '100%', height: '60vh', objectFit: 'contain', padding: 1 }}
+            sx={{ width: '100vh', height: '50vh', objectFit: 'contain', padding: 1 }}
             image={weapon.animation}
             alt={"animation"}
           />
