@@ -7,7 +7,7 @@ const NavigationDrawer = () => {
         <Box
           sx={{
             height: '100%',
-            backgroundColor: '#3e3b36',
+            backgroundColor: '#171726',
             color: '#fff',
             padding: 2,
           }}
