@@ -215,6 +215,78 @@
         "description": "The Nebula Blaze is a Hardmode, post-Lunatic Cultist magic weapon which auto-fires pink, high-velocity projectiles that home in on enemies if they are nearby, with a 1/5 (20%) chance to fire a larger, faster blue projectile that does three times the damage and has a higher velocity, instead. The Nebula Blaze fires inaccurately, akin to the Chain Gun and similar weapons – however, its projectiles are homing from a certain angle, similar to the Spectre Staff. When selected, it appears as a pink glow covering the player's hand which leaves behind a pink particle trail as the player moves.",
         "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/e/e8/Razorblade_Typhoon.png",
         "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/3/38/Razorblade_Typhoon_%28demo%29.gif"
+      },
+      {
+        "name": "Stardust Dragon Staff",
+        "type": "Summon",
+        "damage": 40,
+        "knockback": 2,
+        "description": "The Stardust Dragon Staff is a Hardmode, post-Lunatic Cultist summon weapon that summons a Stardust Dragon that attacks enemies. The Stardust Dragon constantly flies around the screen surrounding the player, and flies through blocks, attacking enemies by flying through them. It leaves a trail of sparkles that provide periodic bursts of light as it moves.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a9/Stardust_Dragon_Staff.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/0/05/Stardust_Dragon_Staff_%28demo%29.gif"
+      },
+      {
+        "name": "Terraprisma",
+        "type": "Summon",
+        "damage": 90,
+        "knockback": 4,
+        "description": "The Terraprisma is a Hardmode, post-Plantera summon weapon. It spawns a copy of itself that rapidly attacks nearby enemies. It is a guaranteed drop from the Empress of Light when all damage dealt to the Empress occurs during the day.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Terraprisma.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c0/Terraprisma_%28demo%29.gif"
+      },
+      {
+        "name": "Xeno Staff",
+        "type": "Summon",
+        "damage": 36,
+        "knockback": 2,
+        "description": "The Xeno Staff is a Hardmode, post-Golem summon weapon. It summons a UFO minion that teleports to nearby enemies and fires lasers at them. The UFO is capable of moving through blocks when far away from the character. It is dropped by the Martian Saucer during the Martian Madness event.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/4/47/Xeno_Staff.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/cc/Xeno_Staff_%28demo%29.gif"
+      },
+      {
+        "name": "Tempest Staff",
+        "type": "Summon",
+        "damage": 50,
+        "knockback": 2,
+        "description": "The Tempest Staff is a Hardmode summon weapon. It spawns a small Sharknado minion that follows the player for an unlimited amount of time, and attacks enemies automatically by firing Mini Sharkron projectiles which splatter against enemies and blocks. Its attack is akin to a miniature version of Duke Fishron's tornado/shark attack. The Tempest Staff has a 20% chance of being dropped by Duke Fishron.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/e/e0/Tempest_Staff.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/4/4f/Tempest_Staff_%28demo%29.gif"
+      },
+      {
+        "name": "The Horseman's Blade",
+        "type": "Melee",
+        "damage": 150,
+        "knockback": 7.5,
+        "description": "The Horseman's Blade is a Hardmode, post-Plantera sword which summons homing pumpkin heads upon hitting an enemy. Despite it being called Horseman's Blade",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/9/93/The_Horseman%27s_Blade.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/5/5f/The_Horseman%27s_Blade_%28demo%29.gif"
+      },
+      {
+        "name": "Paladin Hammer",
+        "type": "Melee",
+        "damage": 90,
+        "knockback": 9,
+        "description": "Paladin's Hammer is a Hardmode, post-Plantera boomerang with high velocity and knockback but low range. It has a 1/15 (6.67%) / 22/225 (9.78%) chance to be dropped from Paladins in post-Plantera Dungeon areas with Brick background walls.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/f/f7/Paladin%27s_Hammer.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/f/f4/Paladin%27s_Hammer_%28demo%29.gif"
+      },
+      {
+        "name": "Stardust Cell Staff",
+        "type": "Summon",
+        "damage": 60,
+        "knockback": 2,
+        "description": "The Stardust Cell Staff is a Hardmode, post-Lunatic Cultist summon weapon that summons a Stardust Cell (a minion version of the Star Cell enemy) that can perform a ranged attack and will teleport to enemies out of range. Like other minions, the summoned Stardust Cell is invincible and follows the player for an unlimited amount of time, unless the player dies, summons a replacement minion, cancels the buff, or leaves the world.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/2/2f/Stardust_Cell_Staff.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/ad/Stardust_Cell_Staff_%28demo%29.gif"
+      },
+      {
+        "name": "Magnet Sphere",
+        "type": "Magic",
+        "damage": 85,
+        "knockback": 5,
+        "description": "The Nebula Blaze is a Hardmode, post-Lunatic Cultist magic weapon which auto-fires pink, high-velocity projectiles that home in on enemies if they are nearby, with a 1/5 (20%) chance to fire a larger, faster blue projectile that does three times the damage and has a higher velocity, instead. The Nebula Blaze fires inaccurately, akin to the Chain Gun and similar weapons – however, its projectiles are homing from a certain angle, similar to the Spectre Staff. When selected, it appears as a pink glow covering the player's hand which leaves behind a pink particle trail as the player moves.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/1/1a/Magnet_Sphere.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a8/Magnet_Sphere_%28demo%29.gif"
       }
     ]
 }
