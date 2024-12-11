@@ -1,13 +1,13 @@
 {
     "weapons": [
       {
-        "name": "Copper Shortsword",
+        "name": "Terra Blade",
         "type": "Melee",
-        "damage": 7,
-        "knockback": 4,
-        "description": "A simple sword made of copper.",
-        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/8/8b/Copper_Shortsword.png",
-        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/b/bf/Copper_Shortsword_%28demo%29.gif"
+        "damage": 85,
+        "knockback": 6.5,
+        "description": "The Terra Blade is a post-Plantera Hardmode projectile sword. When used, it fires a green wave projectile / a green sword projectile , which costs neither mana nor ammunition, deals  50% /  25% more damage than the sword, and can pierce through two enemies, dissipating after hitting a third enemy or a wall. The projectile is affected by Attack speed, it fires once every time the Terra Blade is swung",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/4/4d/Terra_Blade.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/2/2f/Terra_Blade_%28demo%29.gif"
       },
       {
         "name": "Cactus Sword",
@@ -151,7 +151,9 @@
         "knockback": 3,
         "description": "The Nebula Blaze is a Hardmode, post-Lunatic Cultist magic weapon which auto-fires pink, high-velocity projectiles that home in on enemies if they are nearby, with a 1/5 (20%) chance to fire a larger, faster blue projectile that does three times the damage and has a higher velocity, instead. The Nebula Blaze fires inaccurately, akin to the Chain Gun and similar weapons – however, its projectiles are homing from a certain angle, similar to the Spectre Staff. When selected, it appears as a pink glow covering the player's hand which leaves behind a pink particle trail as the player moves.",
         "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/f/fc/Nebula_Blaze.png",
-        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/6/65/Nebula_Blaze_%28demo%29.gif"
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/6/65/Nebula_Blaze_%28demo%29.gif",
+        "projectile1": "https://static.wikia.nocookie.net/terraria_gamepedia/images/f/fb/Nebula_Blaze_%28projectile%29.gif",
+        "projectile2": "https://static.wikia.nocookie.net/terraria_gamepedia/images/5/5e/Nebula_Blaze_Ex.gif"
       },
       {
         "name": "Last Prism",
@@ -161,7 +163,90 @@
         "description": "Last Prism is a Hardmode, post-Moon Lord magic weapon that has a 1/9 (11.11%) chance of dropping from the Moon Lord. It fires several beams of light that converge into one focused beam as it charges, dealing massive damage. It has one of the highest base DPS levels in the game at the cost of rapidly consuming mana.",
         "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/0/0e/Last_Prism.png",
         "animation":"https://static.wikia.nocookie.net/terraria_gamepedia/images/9/93/Last_Prism_%28demo%29.gif"
+      },
+      {
+        "name": "Electrosphere Launcher",
+        "type": "Ranged",
+        "damage": 40,
+        "knockback": 2,
+        "description": "The Electrosphere Launcher is a Hardmode, post-Golem launcher that fires rockets to the position of the cursor, then forms an energy-emanating ball of constant damage for approximately 8 seconds. An infinite number of electrospheres can be summoned, but they cannot overlap.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/d/da/Electrosphere_Launcher.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/0/03/Electrosphere_Launcher_%28demo%29.gif",
+        "Effect": "https://static.wikia.nocookie.net/terraria_gamepedia/images/9/9f/Electrosphere.gif"
+      },
+      {
+        "name": "Bunny Cannon",
+        "type": "Ranged",
+        "damage": -1,
+        "knockback": 0,
+        "description": "The Bunny Cannon is a weapon purchased from the Pirate for 50 gold, when the Party Girl is present, and one Hardmode boss has been defeated. It works like a Cannon, albeit firing explosive bunnies instead of cannonballs.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c0/Bunny_Cannon_%28placed%29.gif",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/0/00/Bunny_Cannon_%28demo%29.gif"
+      },
+      {
+        "name": "Super Star Shooter ",
+        "type": "Ranged",
+        "damage": 60,
+        "knockback": 5,
+        "description": "The Super Star Shooter is a Hardmode ranged weapon that uses Fallen Stars for ammunition and is a direct upgrade to the Star Cannon. The stars shot from the weapon summon an extra projectile upon contact with an enemy, hitting them again, similarly to the Influx Waver.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/d/d3/Super_Star_Shooter.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/2/26/Super_Star_Shooter_%28demo%29.gif"
+      },
+      {
+        "name": "Phantasm",
+        "type": "Ranged",
+        "damage": 50,
+        "knockback": 2,
+        "description": "The Phantasm is a Hardmode, post-Lunatic Cultist craftable bow that auto-fires four arrows at once, while only consuming a single arrow from the player's inventory. Arrows are loosely grouped and can fire with varied velocities and ranges (similar to the Chlorophyte Shotbow). The bow has a 66% chance of not consuming ammunition.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a7/Phantasm.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/9/92/Phantasm_%28demo%29.gif"
+      },
+      {
+        "name": "Laser Machinegun",
+        "type": "Magic",
+        "damage": 60,
+        "knockback": 2,
+        "description": "The Nebula Blaze is a Hardmode, post-Lunatic Cultist magic weapon which auto-fires pink, high-velocity projectiles that home in on enemies if they are nearby, with a 1/5 (20%) chance to fire a larger, faster blue projectile that does three times the damage and has a higher velocity, instead. The Nebula Blaze fires inaccurately, akin to the Chain Gun and similar weapons – however, its projectiles are homing from a certain angle, similar to the Spectre Staff. When selected, it appears as a pink glow covering the player's hand which leaves behind a pink particle trail as the player moves.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/1/1c/Laser_Machinegun.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/1/11/Laser_Machinegun_%28demo%29.gif"
+      },
+      {
+        "name": "Razor Typhoon",
+        "type": "Magic",
+        "damage": 85,
+        "knockback": 5,
+        "description": "The Nebula Blaze is a Hardmode, post-Lunatic Cultist magic weapon which auto-fires pink, high-velocity projectiles that home in on enemies if they are nearby, with a 1/5 (20%) chance to fire a larger, faster blue projectile that does three times the damage and has a higher velocity, instead. The Nebula Blaze fires inaccurately, akin to the Chain Gun and similar weapons – however, its projectiles are homing from a certain angle, similar to the Spectre Staff. When selected, it appears as a pink glow covering the player's hand which leaves behind a pink particle trail as the player moves.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/e/e8/Razorblade_Typhoon.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/3/38/Razorblade_Typhoon_%28demo%29.gif"
+      },
+      {
+        "name": "Stardust Dragon Staff",
+        "type": "Summon",
+        "damage": 85,
+        "knockback": 5,
+        "description": "The Nebula Blaze is a Hardmode, post-Lunatic Cultist magic weapon which auto-fires pink, high-velocity projectiles that home in on enemies if they are nearby, with a 1/5 (20%) chance to fire a larger, faster blue projectile that does three times the damage and has a higher velocity, instead. The Nebula Blaze fires inaccurately, akin to the Chain Gun and similar weapons – however, its projectiles are homing from a certain angle, similar to the Spectre Staff. When selected, it appears as a pink glow covering the player's hand which leaves behind a pink particle trail as the player moves.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a9/Stardust_Dragon_Staff.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/0/05/Stardust_Dragon_Staff_%28demo%29.gif"
+      },
+      {
+        "name": "Terraprisma",
+        "type": "Summon",
+        "damage": 90,
+        "knockback": 4,
+        "description": "The Terraprisma is a Hardmode, post-Plantera summon weapon. It spawns a copy of itself that rapidly attacks nearby enemies. It is a guaranteed drop from the Empress of Light when all damage dealt to the Empress occurs during the day.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/b/b0/Terraprisma.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c0/Terraprisma_%28demo%29.gif"
+      },
+      {
+        "name": "Tempest Staff",
+        "type": "Summon",
+        "damage": 50,
+        "knockback": 2,
+        "description": "The Tempest Staff is a Hardmode summon weapon. It spawns a small Sharknado minion that follows the player for an unlimited amount of time, and attacks enemies automatically by firing Mini Sharkron projectiles which splatter against enemies and blocks. Its attack is akin to a miniature version of Duke Fishron's tornado/shark attack. The Tempest Staff has a 20% chance of being dropped by Duke Fishron.",
+        "image": "https://static.wikia.nocookie.net/terraria_gamepedia/images/e/e0/Tempest_Staff.png",
+        "animation": "https://static.wikia.nocookie.net/terraria_gamepedia/images/4/4f/Tempest_Staff_%28demo%29.gif"
       }
+
     ]
   }
   
