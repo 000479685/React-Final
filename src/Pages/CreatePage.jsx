@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {addDoc, collection} from 'firebase/firestore';
-import {db} from '../firebaseConfig'
+import {auth, db} from '../firebaseConfig'
 import { Box, FormControlLabel, Radio, FormControl, RadioGroup, FormLabel, Button, TextField} from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const categories = [
     'weapons',
@@ -12,6 +13,17 @@ const categories = [
 
 const CreatePage = () => 
 {
+    const navigate = useNavigate();
+
+    // if the user is not logged in, bring them back to the home page
+    useEffect(() =>
+    {
+        if(auth.currentUser)
+        {            
+            navigate('/');
+        }
+    }, [])
+
     const [pageInfo, setPageInfo] = useState({
         category: 'misc',
         page: '',

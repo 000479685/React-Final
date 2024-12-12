@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const WeaponItem = ({ weapon }) => {
   return (
     <Grid item xs={12} sm={6} md={4}>
-      <Card sx={{ backgroundColor: '#2e2b22', color: '#d4d4c9', display: 'flex', alignItems: 'center' }}>
+      <Card sx={{ backgroundColor: '#2e2e4f', color: '#d4d4c9', display: 'flex', alignItems: 'center' }}>
         {/* Image on the left */}
         <Link to={`/weapons/${weapon.name}`} state={{ weapon }} style={{ textDecoration: 'none' }}>
           <CardMedia
