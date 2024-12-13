@@ -1,0 +1,139 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Disable horizontal scrolling */
+  }
+
+.homepage {
+    margin: 0; /* Remove the default margin */
+    margin-left: 80px;
+    
+    padding: 20px;
+    background: url('https://wallpaperaccess.com/full/1326732.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    color: #fff;
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+    display: flex; /* Flex layout for proper alignment */
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center sections horizontally */
+    min-height: 100vh;
+    justify-content: flex-start; /* Align content to the top */
+  }
+  
+  .header {
+    background: linear-gradient(to right, #2d6a4f, #52b788);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px; /* Rounded corners for the header */
+    width: 100%; /* Span the full width */
+    box-sizing: border-box;
+    margin: 0 20px; 
+    align-items: center;
+    max-width: 1200px; /* Optional: Restrict max width for readability */
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .header-nav {
+    margin-top: 10px;
+  }
+  
+  .header-nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .featured-characters,
+  .all-characters {
+    margin: 40px 0;
+    width: 100%; /* Stretch sections to full width */
+    max-width: 1200px; /* Optional: Restrict the max width */
+    text-align: center;
+  }
+  
+  .featured-characters h2,
+  .all-characters h2 {
+    color: #ffc107; /* Bright yellow for headings */
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .character-row,
+  .character-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly; /* Evenly space the cards */
+    flex-wrap: wrap; /* Ensure cards wrap on smaller screens */
+    width: 100%;
+  }
+  
+  .character-card {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    flex: 1;
+    min-width: 200px; /* Minimum width for a card */
+    max-width: 300px; /* Maximum width for a card */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+    box-sizing: border-box;
+  }
+  
+  .character-card img {
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .character-card h3 {
+    margin: 0;
+    color: #ffc107; /* Bright yellow for titles */
+    font-size: 1.2rem;
+  }
+  
+  .character-card p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+
+  /* For large screens (desktops and laptops) */
+@media (min-width: 1200px) {
+    .homepage {
+      margin-left: 150px; /* Add more space for larger screens */
+    }
+  }
+  
+  /* For medium screens (tablets) */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .homepage {
+      margin-left: 100px; /* Adjust margin for tablets */
+    }
+  }
+  
+  /* For small screens (mobile devices) */
+  @media (max-width: 767px) {
+    .homepage {
+      margin-left: 0; /* Remove the margin for mobile devices */
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  
+    .header {
+      margin: 0 10px; /* Add smaller side margins */
+      padding: 15px; /* Reduce padding inside the header */
+    }
+  }
+  

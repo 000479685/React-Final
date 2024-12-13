@@ -1,0 +1,49 @@
+.character-card {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    flex: 1; /* Allow cards to stretch equally */
+    min-width: 150px; /* Ensure cards have a minimum width */
+    max-width: 300px; /* Restrict the maximum width */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+    transition: transform 0.3s ease; /* Add hover effect */
+  }
+  
+  .character-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .character-card h3 {
+    margin: 0;
+    color: #ffcc00;
+  }
+  
+  .character-card p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .character-card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 15px;
+  }
+  
+  .character-row,
+  .character-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    width: 100%; 
+  }
+  
+  .featured-characters,
+  .all-characters {
+    margin: 40px auto;
+    width: 100%; 
+    max-width: 1200px;
+  }

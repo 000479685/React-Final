@@ -1,0 +1,238 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #121212;
+  }
+  
+  .characters-page {
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #121212;
+    margin-left: 250px;
+  }
+  
+  .sidebar {
+    width: 15%;
+    background-color: #090909;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #121212;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+  }
+  
+  .main-content {
+    width: 85%;
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .page-title {
+    color: #ffc107;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .character-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .character-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .character-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .character-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .character-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffc107;
+  }
+  
+  /* Modal Styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #2d2d2d;
+    color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto; /* Add scroll for overflow */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .modal-content::-webkit-scrollbar-track {
+    background: #1d1d1d;
+  }
+  
+  .modal-content::-webkit-scrollbar-thumb {
+    background-color: #ffc107;
+    border-radius: 4px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    color: #f1f1f1;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Layout for Image and Physical Info */
+  .modal-image-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .modal-image {
+    width: 40%;
+    max-height: 300px;
+    object-fit: contain;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .modal-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .modal-info h2 {
+    font-size: 2rem;
+    color: #ffc107;
+    margin-bottom: 10px;
+  }
+  
+  .modal-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+    line-height: 1.5;
+  }
+  
+  /* Story Section */
+  .modal-story {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .modal-story h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffc107;
+  }
+  
+  .modal-story p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .modal-content {
+    background-color: #2d2d2d;
+    color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto; /* Add scroll for overflow */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Adjust layout for image and information */
+  .modal-image-info {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    gap: 20px;
+  }
+  
+  /* Center image */
+  .modal-image {
+    width: auto; /* Maintain original aspect ratio */
+    height: 300px; /* Adjust height */
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  /* Adjust story alignment */
+  .modal-story {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .modal-story h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffc107;
+  }
+  
+  .modal-story p {
+    font-size: 16px;
+    line-height: 1.5;
+  }

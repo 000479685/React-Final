@@ -10,6 +10,9 @@ const MainPage = () => {
       <Link to='/enemies'>
         <h2>This is the link to Enemies page</h2>
       </Link>
+      <Link to='/characters_home'>
+        <h2>This is the link to Characters page</h2>
+      </Link>
     </Container>
   );
 };

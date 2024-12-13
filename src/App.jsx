@@ -14,6 +14,9 @@ import NoteButton from './components/NoteButton'
 import EnemiesCard from './pages/enemies/EnemiesCard'
 import EnemySearchResults from './pages/enemies/EnemySearchResults'
 import SecretResetPage from './pages/SecretResetPage'
+import CharacterHomePage from './pages/characters/CharacterHomePage'
+import CharacterDetailsPage from './pages/characters/CharacterDetailsPage'
+import CharactersPage from './pages/characters/CharacterPage'
 
 function App() {  
   const routes = useRoutes([
@@ -64,6 +67,18 @@ function App() {
     {
       path: '/enemySearchResults',
       element: <EnemySearchResults></EnemySearchResults>
+    },
+    {
+      path: '/characters_home',
+      element: <CharacterHomePage></CharacterHomePage>
+    },
+    {
+      path: '/characters',
+      element: <CharactersPage></CharactersPage>
+    },
+    {
+      path: '/characters/:characterId',
+      element: <CharacterDetailsPage></CharacterDetailsPage>
     }
   ])
 
