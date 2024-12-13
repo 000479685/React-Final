@@ -2,7 +2,7 @@ import React from "react";
 import {
   Card,CardMedia, CardContent, Typography, Box, Grid2 ,} from "@mui/material";
 import { useLocation } from "react-router-dom";
-import weapons from "../../Data/Weapons.json"
+import weapons from "../../data/Weapons.json"
 
 const WeaponDetails = () => {
   const location = useLocation();
