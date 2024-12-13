@@ -86,7 +86,7 @@ const Navbar = () =>
     }
 
     return (        
-        <AppBar position='static' enableColorOnDark style={{display:'flex', color: 'red', background:'black'}}>
+        <AppBar position='static' enableColorOnDark style={{display:'flex', color: 'red', background:'black', zIndex:99}} >
             <Toolbar style={{justifyContent: 'space-between'}}>
                 <Typography variant='h2' color='red' >
                     <Link to={'/'} style={{textDecoration:'none', color:'brown'}}>

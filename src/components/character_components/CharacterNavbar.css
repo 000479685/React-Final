@@ -1,6 +1,6 @@
 .characterNavbar {
     position: fixed;
-    top: 0;
+    top: 72px;
     left: 0;
     width: 200px; /* Same width across all pages */
     height: 100%;
