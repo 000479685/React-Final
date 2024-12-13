@@ -75,9 +75,9 @@ const Navbar = () =>
         return auth.currentUser ? 
                         (
                         <>
-                        {renderEditPageButton()}
+                        {/* {renderEditPageButton()} */}
                         {/* <Button onClick={() => console.log(auth.currentUser, auth.currentUser.email)} style={{ color: 'white', border: '1px solid white' }}>Check user</Button> */}
-                        <Button onClick={moveToCreatePage} variant='outlined' style={{ color: 'white', border: '1px solid white' }}>Create Pages</Button>                                    
+                        {checkForUserLoggedIn() ? <Button onClick={moveToCreatePage} variant='outlined' style={{ color: 'white', border: '1px solid white' }}>Create Pages</Button> : <></>}
                         <Button onClick={handleSignout} variant="outlined" style={{ color: 'white', border: '1px solid white' }}>Signout</Button> 
                         </>
                         )
@@ -86,7 +86,7 @@ const Navbar = () =>
     }
 
     return (        
-        <AppBar position='static' enableColorOnDark style={{display:'flex', color: 'red'}}>
+        <AppBar position='static' enableColorOnDark style={{display:'flex', color: 'red', background:'black'}}>
             <Toolbar style={{justifyContent: 'space-between'}}>
                 <Typography variant='h2' color='red' >
                     <Link to={'/'} style={{textDecoration:'none', color:'brown'}}>

@@ -144,6 +144,7 @@ const NoteButton = () =>
         if(checkIfValidPage() && checkForUserLoggedIn())            
         {
             getNotesList()
+            // console.log(pageRelevantNotes)
         }
     }, [])
 
@@ -163,7 +164,7 @@ const NoteButton = () =>
                 {
                     pageRelevantNotes.map((note, index) => 
                     {
-                        return <Typography key={index}>{note.content}</Typography>
+                        return <Typography key={index} sx={{textShadow:"5px 5px 5px rgb(54, 54, 54)"}}>{note.content}</Typography>
                     })
                 }
                 <Box component={'form'} sx={{ '& .MuiTextField-root': { m: 1, width: '25ch' } }}>
