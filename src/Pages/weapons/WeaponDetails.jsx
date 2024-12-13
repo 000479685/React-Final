@@ -18,12 +18,8 @@ const WeaponDetails = () => {
   const index = location.pathname.search(/\/weapons\//i);
   console.log(index);
   const weapName =
-    index !== -1
-      ? decodeURIComponent(location.pathname.substring(index + 9))
-      : null;
-  const weapon = weapons.weapons.find(
-    (w) => w.name.toLowerCase() === weapName?.toLowerCase()
-  );
+    index !== -1 ? decodeURIComponent(location.pathname.substring(index + 9)) : null;
+  const weapon = weapons.weapons.find((w) => w.name.toLowerCase() === weapName?.toLowerCase());
 
   if (!weapon) {
     return (
