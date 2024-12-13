@@ -1,7 +1,8 @@
 import { Box, Button } from "@mui/material";
-import React from "react";
-import { auth } from "../firebaseConfig";
+import React, { useState } from "react";
+import { auth, db } from "../firebaseConfig";
 import { useLocation } from "react-router-dom";
+import { addDoc, collection } from "firebase/firestore";
 
 
 const validRoutes = 
@@ -14,6 +15,13 @@ const validRoutes =
 const NoteButton = () =>
 {
     let location = useLocation();
+
+    const [notesInfo, setNotesInfo] = useState({
+        userId: auth.currentUser,        
+    })
+
+    const userNotesCollectionReference = collection(db, "userNotes")
+
     const checkIfValidPage = () =>
     {
         //gets the information about the page and if it is one that can be edited        
@@ -27,7 +35,7 @@ const NoteButton = () =>
         }        
 
         return false
-    }
+    }    
 
     const checkForUserLoggedIn = () =>
     {
@@ -40,15 +48,27 @@ const NoteButton = () =>
         {
             return (
                 <Box position='fixed' top='90%' left='5%'>
-                    <Button color="secondary" variant="contained">+ Note</Button>        
+                    <Button color="secondary" variant="contained" onClick={openNoteOverlay}>+ Note</Button>        
                 </Box>
             )
         }
     }
 
-    const createNote = () =>
+    const openNoteOverlay = () =>
+    {
+        
+    }
+
+    const createNote = async () =>
     {
         //This needs to set a global flag that turns page components into something people can interact with
+        try{            
+            await addDoc(userNotesCollectionReference, notesInfo)
+        }
+        catch (error)
+        {
+            console.log(error)
+        }
     }
 
     return (

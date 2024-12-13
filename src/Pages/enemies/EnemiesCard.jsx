@@ -106,9 +106,7 @@ function EnemiesCard() {
 
         const getEnemiesList = async () => 
             {            
-                try{
-
-                
+                try{                
                 const enemiesDoc = await getDocs(enemiesCollectionReference);                        
                 const extractedEnemies = await enemiesDoc.docs.map((doc) => 
                     {
@@ -117,7 +115,8 @@ function EnemiesCard() {
                             ...doc.data()
                         }
                     })   
-                    // console.log(extractedEnemies)             
+                    // console.log(extractedEnemies)            
+                     
                     setEnemiesList(extractedEnemies)
                     
                     findEnemy()

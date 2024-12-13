@@ -1,19 +1,43 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Box, Container, Typography } from "@mui/material";
 import WeaponList from "../../components/weapon_components/WeaponList";
 import NavigationDrawer from "../../components/weapon_components/NavigationDrawer";
-import weapons from "../../data/Weapons.json";
+// import weapons from "../../data/Weapons.json";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../../firebaseConfig";
 
 const WeaponPage = () => {
   // Filter weapons by type
-  const meleeWeapons = weapons.weapons.filter((item) => item.type === "Melee");
-  const rangedWeapons = weapons.weapons.filter(
+
+  const [weapons, setWeapons] = useState([])
+  const meleeWeapons = weapons.filter((item) => item.type === "Melee");
+  const rangedWeapons = weapons.filter(
     (item) => item.type === "Ranged"
   );
-  const magicWeapons = weapons.weapons.filter((item) => item.type === "Magic");
-  const summoningWeapons = weapons.weapons.filter(
+  const magicWeapons = weapons.filter((item) => item.type === "Magic");
+  const summoningWeapons = weapons.filter(
     (item) => item.type === "Summon"
   );
+
+  const weaponsCollectionReference = collection(db, "weapons")
+  const getWeaponsList = async () =>
+  {
+    const weaponsDATA = await getDocs(weaponsCollectionReference)
+    const extractedWeapons = weaponsDATA.docs.map((doc) =>
+    {
+      return {
+        id: doc.id,
+        ...doc.data()
+      }
+    })
+
+    setWeapons(extractedWeapons)
+  }
+
+  useEffect(() =>
+  {
+    getWeaponsList();
+  }, [])
 
   return (
     <Box display="flex" flexDirection="column" minHeight="100vh">
