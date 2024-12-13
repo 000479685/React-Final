@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import {Link, useNavigate} from 'react-router-dom'
 import {createUserWithEmailAndPassword, signInWithEmailAndPassword} from 'firebase/auth'
-import {auth} from '../firebaseConfig'
+import {auth, db} from '../firebaseConfig'
 import { Box } from "@mui/system";
 import { Button, TextField, Typography } from "@mui/material";
+import { addDoc, collection } from "firebase/firestore";
 
 
 
@@ -15,11 +16,21 @@ const SignupPage = () => {
 
     const navigate = useNavigate();
 
+    const userNotesCollectionReference = collection(db, "userNotes");
+
+    const [userNotesDetails, setUserNotesDetails] = useState({
+        email: '',
+        notes: {
+
+        }
+    })
+
     const handleSignup = async () =>
     {
         try
         {
-            const {user} = await createUserWithEmailAndPassword(auth, credentials.email, credentials.password);              
+            const {user} = await createUserWithEmailAndPassword(auth, credentials.email, credentials.password);                 
+            await addDoc(userNotesCollectionReference, userNotesDetails)
             setTimeout(() => {
                 navigate('/');
             }, 2000)          
@@ -41,10 +52,15 @@ const SignupPage = () => {
                 placeholder='Enter your email'
                 type='email'
                 value={credentials.email}
-                onChange={(e) => setCredentials({
+                onChange={(e) => {setCredentials({
                     ...credentials,
                     email: e.target.value
+                })
+                setUserNotesDetails({
+                    ...userNotesDetails,
+                    email: e.target.value
                 })}
+            }
             />
             <TextField
                 required

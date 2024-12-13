@@ -76,7 +76,7 @@ const Navbar = () =>
                         (
                         <>
                         {renderEditPageButton()}
-                        {/* <Button onClick={() => console.log(auth.currentUser)} style={{ color: 'white', border: '1px solid white' }}>Check user</Button> */}
+                        {/* <Button onClick={() => console.log(auth.currentUser, auth.currentUser.email)} style={{ color: 'white', border: '1px solid white' }}>Check user</Button> */}
                         <Button onClick={moveToCreatePage} variant='outlined' style={{ color: 'white', border: '1px solid white' }}>Create Pages</Button>                                    
                         <Button onClick={handleSignout} variant="outlined" style={{ color: 'white', border: '1px solid white' }}>Signout</Button> 
                         </>
