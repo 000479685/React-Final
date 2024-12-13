@@ -25,6 +25,7 @@ const NavigationDrawer = () => {
             <Link href="/characters_home" underline="none" color="inherit">
               Characters
             </Link>
+            <img style={{marginTop:100, width: 100, height: 100 }} src="https://media.tenor.com/94XLrPV8vgsAAAAi/terraria-honey-bee.gif" alt="Bee"/>
           </Box>
         </Box>
       );
