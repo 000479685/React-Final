@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Container, Typography, Tooltip } from "@mui/material";
 import WeaponList from "../../components/weapon_components/WeaponList";
 import NavigationDrawer from "../../components/weapon_components/NavigationDrawer";
 // import weapons from "../../data/Weapons.json";
@@ -94,7 +94,17 @@ const WeaponPage = () => {
             <Box marginBottom={4}>
               <Typography sx={{ borderTop: 1 }} variant="h4" gutterBottom>
                 <Typography sx={{ display: 'inline' }}>
-                  <img style={{ width: 100, height: 100 }} src="https://media.tenor.com/m9hW1bjQQgAAAAAi/%D0%BA%D1%83%D1%81%D1%82-%D0%B8%D0%B7-%D1%82%D0%B5%D1%80%D1%80%D0%B0%D1%80%D0%B8%D0%B8.gif" alt="Bee" />
+                  <Tooltip title="Please dont use these sword on me (｡･ˇ_ˇ･｡) !" arrow>
+                    <img
+                      style={{
+                        width: 100,
+                        height: 100,
+                      }}
+                      src="https://media.tenor.com/m9hW1bjQQgAAAAAi/%D0%BA%D1%83%D1%81%D1%82-%D0%B8%D0%B7-%D1%82%D0%B5%D1%80%D1%80%D0%B0%D1%80%D0%B8%D0%B8.gif"
+                      alt="tree"
+                    />
+                  </Tooltip>
+
                 </Typography>
                 Melee Weapons
               </Typography>
