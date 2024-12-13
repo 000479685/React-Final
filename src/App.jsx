@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import {useRoutes} from 'react-router-dom'
-import Navbar from './components/navBar'
-import WeaponPage from './pages/weapons/WeaponPage'
+import Navbar from './components/Navbar'
+import WeaponPage from './Pages/weapons/WeaponPage'
 import Homepage from './pages/HomePage'
 import './App.css'
-import WeaponDetails from './pages/weapons/WeaponDetails'
+import MainPage from './Pages/MainPage'
+import WeaponDetails from './Pages/weapons/WeaponDetails';
 import CreatePage from './pages/CreatePage'
 import EnemiesHomePage from './pages/enemies/EnemiesHomePage'
-import SignInPage from './pages/SignInPage'
+import SignInPage from './Pages/SignInPage'
 import SignupPage from './pages/SignupPage'
-import MainPage from './pages/MainPage'
 import NoteButton from './components/NoteButton'
 import EnemiesCard from './pages/enemies/EnemiesCard'
 import EnemySearchResults from './pages/enemies/EnemySearchResults'
@@ -19,7 +19,7 @@ function App() {
   const routes = useRoutes([
     {
       path: '/',
-      element: <Homepage></Homepage>
+      element: <Homepage />
     },
     {
       path: '/home',
@@ -46,13 +46,13 @@ function App() {
       element: <WeaponPage />
     },
     {
-      path: '/create',
-      element: <CreatePage/>
-    },
-    {
       path: '/weapons/:weaponName',
       element: <WeaponDetails/>
-    },    
+    }, 
+    {
+      path: '/create',
+      element: <CreatePage/>
+    },   
     {
       path: '/enemies',
       element: <EnemiesHomePage/>
