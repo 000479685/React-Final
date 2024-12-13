@@ -20,11 +20,9 @@ const WeaponPage = () => {
   );
 
   const weaponsCollectionReference = collection(db, "weapons")
-  const getWeaponsList = async () =>
-  {
+  const getWeaponsList = async () => {
     const weaponsDATA = await getDocs(weaponsCollectionReference)
-    const extractedWeapons = weaponsDATA.docs.map((doc) =>
-    {
+    const extractedWeapons = weaponsDATA.docs.map((doc) => {
       return {
         id: doc.id,
         ...doc.data()
@@ -34,8 +32,7 @@ const WeaponPage = () => {
     setWeapons(extractedWeapons)
   }
 
-  useEffect(() =>
-  {
+  useEffect(() => {
     getWeaponsList();
   }, [])
 
@@ -62,13 +59,13 @@ const WeaponPage = () => {
 
         {/* Main Content */}
         <Box flexGrow={1} bgcolor="#1e1e2e" color="#e0e0d1" padding={5}>
-          <Box sx={{display: 'flex', gap: 7, }}>
-            <img style={{ width: 250, height: 250 }} src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c9/Empress_of_Light.gif" alt="Empress of light"/>
-            <img style={{ width: 200, height: 250 }} src="https://media.tenor.com/zmhKFTWzJd8AAAAi/terraria-boss.gif" alt="twin cluthu boss"/>
-            <img style={{ width: 200, height: 250 }} src="https://media.tenor.com/_y0Bs-HbVVsAAAAi/moonlord-cthulhu.gif" alt="Moonlord Cthulhu"/>
-            <img style={{ width: 200, height: 250 }} src="https://media.tenor.com/hP_X6-PIe6wAAAAi/terraria-santa.gif" alt="Santa"/>
-            <img style={{ width: 150, height: 250 }}src="https://static.wikia.nocookie.net/terraria_gamepedia/images/1/1c/Lunatic_Cultist.gif" alt="Lunatic Cultist"/>
-            <img style={{ width: 250, height: 250 }} src="https://media.tenor.com/SfjEpazhre0AAAAi/terraria-wall-of-flesh.gif" alt="Wall of Flesh"/>
+          <Box sx={{ display: 'flex', gap: 7, }}>
+            <img style={{ width: 250, height: 250 }} src="https://static.wikia.nocookie.net/terraria_gamepedia/images/c/c9/Empress_of_Light.gif" alt="Empress of light" />
+            <img style={{ width: 200, height: 250 }} src="https://media.tenor.com/zmhKFTWzJd8AAAAi/terraria-boss.gif" alt="twin cluthu boss" />
+            <img style={{ width: 200, height: 250 }} src="https://media.tenor.com/_y0Bs-HbVVsAAAAi/moonlord-cthulhu.gif" alt="Moonlord Cthulhu" />
+            <img style={{ width: 200, height: 250 }} src="https://media.tenor.com/hP_X6-PIe6wAAAAi/terraria-santa.gif" alt="Santa" />
+            <img style={{ width: 150, height: 250 }} src="https://static.wikia.nocookie.net/terraria_gamepedia/images/1/1c/Lunatic_Cultist.gif" alt="Lunatic Cultist" />
+            <img style={{ width: 250, height: 250 }} src="https://media.tenor.com/SfjEpazhre0AAAAi/terraria-wall-of-flesh.gif" alt="Wall of Flesh" />
           </Box>
 
           <Container>
@@ -96,6 +93,9 @@ const WeaponPage = () => {
             {/* Melee Weapons */}
             <Box marginBottom={4}>
               <Typography sx={{ borderTop: 1 }} variant="h4" gutterBottom>
+                <Typography sx={{ display: 'inline' }}>
+                  <img style={{ width: 100, height: 100 }} src="https://media.tenor.com/m9hW1bjQQgAAAAAi/%D0%BA%D1%83%D1%81%D1%82-%D0%B8%D0%B7-%D1%82%D0%B5%D1%80%D1%80%D0%B0%D1%80%D0%B8%D0%B8.gif" alt="Bee" />
+                </Typography>
                 Melee Weapons
               </Typography>
               <WeaponList weapons={meleeWeapons} />
@@ -104,6 +104,10 @@ const WeaponPage = () => {
             {/* Ranged Weapons */}
             <Box marginBottom={4}>
               <Typography variant="h4" gutterBottom>
+
+                <Typography sx={{ display: 'inline' }}>
+                  <img style={{ marginRight: 20, width: 100, height: 100 }} src="https://media.tenor.com/uWw3AEsunZQAAAAi/red-slime.gif" alt="slime" />
+                </Typography>
                 Ranged Weapons
               </Typography>
               <WeaponList weapons={rangedWeapons} />
@@ -112,6 +116,9 @@ const WeaponPage = () => {
             {/* Magic Weapons */}
             <Box marginBottom={4}>
               <Typography variant="h4" gutterBottom>
+                <Typography sx={{ display: 'inline' }}>
+                  <img style={{ marginRight: 20, width: 100, height: 100 }} src="https://media.tenor.com/DuDgh73Qw34AAAAj/terraria.gif" alt="orb" />
+                </Typography>
                 Magic Weapons
               </Typography>
               <WeaponList weapons={magicWeapons} />
@@ -119,6 +126,9 @@ const WeaponPage = () => {
 
             {/* Summon Weapon  */}
             <Box marginBottom={4}>
+              <Typography sx={{ display: 'inline' }}>
+                <img style={{ marginRight: 20, width: 100, height: 100 }} src="https://media.tenor.com/NmGvb-b0jpAAAAAi/deerclops.gif" alt="orb" />
+              </Typography>
               <Typography variant="h4" gutterBottom>
                 Summon Weapons
               </Typography>
