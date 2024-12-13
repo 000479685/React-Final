@@ -7,6 +7,9 @@ const MainPage = () => {
       <Link to='/weapons'>
         <h2>This is the link to Weapon page</h2>
       </Link>
+      <Link to='/enemies'>
+        <h2>This is the link to Enemies page</h2>
+      </Link>
     </Container>
   );
 };
