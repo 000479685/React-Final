@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -6,13 +6,30 @@ import CardMedia from '@mui/material/CardMedia';
 import CardActions from '@mui/material/CardActions';
 import Typography from '@mui/material/Typography';
 import {Box, TextField, Button} from '@mui/material';
-import enemiesData from '../../data/enemies.json';
+// import enemiesData from '../../data/enemies.json';
+import { collection, getDocs } from 'firebase/firestore';
+import { db } from '../../firebaseConfig';
 
 function EnemiesHomePage() {
-
-    const [enemies] = useState(enemiesData.enemies);
+    
+    const [enemies, setEnemies] = useState([]);
     const [searchLetter, setSearchLetter] = useState('')
     const navigate = useNavigate();
+
+    const enemiesCollectionReference = collection(db, "enemies")
+
+    const getEnemiesList = async () => 
+    {
+        const enemies = await getDocs(enemiesCollectionReference)
+        const extractedEnemies = enemies.docs.map((doc) =>
+        {
+            return {id: doc.id, ...doc.data()}
+        })
+        // console.log(extractedEnemies)
+        setEnemies(extractedEnemies)
+    }
+
+
 
     const truncateText = (text) => {
         const maxLength = 100;
@@ -45,6 +62,10 @@ function EnemiesHomePage() {
     //     //     .catch(error => console.error('Error fetching enemies:', error));  
     //     // }, []
     //     );
+
+    useEffect(() => {
+        getEnemiesList()
+    }, [])
 
     return (
         <div>

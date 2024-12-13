@@ -12,57 +12,50 @@ import { useEffect, useState } from 'react';
 function EnemiesCard() {
     
     const enemiesCollectionReference = collection(db, "enemies")
+    const location = useLocation();
     
     const [enemiesList, setEnemiesList] = useState([]);    
-    const [enemy, setEnemy] = useState(null)
-
-    const getEnemiesList = async () => 
-    {
-        const enemiesDoc = await getDocs(enemiesCollectionReference);                        
-        const extractedEnemies = enemiesDoc.docs.map((doc) => 
-        {
-            return {
-                id: doc.id,
-                ...doc.data()
-            }
-        })
-
-        setEnemiesList(extractedEnemies)
-    }
-
+    const [enemy, setEnemy] = useState(location.state ? location.state.enemy : {})
     
-    const findEnemy = (enemyData) =>
+    
+    const regex = '/\/enemies\//i'
+    const enemyName = location.pathname.slice(location.pathname.search(regex) + 10);        
+    
+    
+
+            
+            
+
+            
+    const findEnemy = () =>
+    {
+        console.log("finding started", enemiesList)
+        for (let enemyData of enemiesList)
         {
-            // console.log(enemyName, enemyData.name == enemyName)
-            return enemyData.name == enemyName
+            if(enemyData.name == decodeURI(enemyName))
+            {
+                setEnemy(enemyData)
+                return
+            }
         }
-        
-        const location = useLocation();
-        const regex = '/\/enemies\//i'
-        const enemyName = location.pathname.slice(location.pathname.search(regex) + 10);        
-        
-        
-    useEffect(() => {
-        getEnemiesList();
-        const temp = enemiesList.find(findEnemy)
-        // console.log(temp)
-        setEnemy(temp)        
-    }, [])
-
-
+        return
+    }
+                
     const checkForEnemy = () =>
-    {        
+    {                
+        // console.log(enemy, enemy.id)
         if (!enemy) {
+            // console.log("enemy does not exist")
             return (
                 <Typography
-                    variant="h6"
-                    sx={{ textAlign: 'center', marginTop: '20px' }}
+                variant="h6"
+                sx={{ textAlign: 'center', marginTop: '20px' }}
                 >
                     No enemy data available.
                 </Typography>
             );
         }
-
+        
         return (
             <Box
             sx={{
@@ -73,7 +66,7 @@ function EnemiesCard() {
                 backgroundColor: '#f5f5f5',
                 padding: '20px',
             }}
-        >
+            >
             <Card sx={{ maxWidth: 345 }} key={enemy.id}>
                 <CardActionArea>
                     <CardMedia
@@ -86,7 +79,7 @@ function EnemiesCard() {
                             borderTopLeftRadius: '10px',
                             borderTopRightRadius: '10px',
                         }}
-                    />
+                        />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             {enemy.name}
@@ -97,7 +90,7 @@ function EnemiesCard() {
                         <Typography
                             variant="body2"
                             sx={{ color: 'text.secondary' }}
-                        >
+                            >
                             {enemy.description}
                         </Typography>
                     </CardContent>
@@ -106,9 +99,44 @@ function EnemiesCard() {
         </Box>
         )
     }
+    
+    
+    useEffect(() => {
+        // console.log(decodeURI(enemyName))
 
+        const getEnemiesList = async () => 
+            {            
+                try{
 
+                
+                const enemiesDoc = await getDocs(enemiesCollectionReference);                        
+                const extractedEnemies = await enemiesDoc.docs.map((doc) => 
+                    {
+                        return {
+                            id: doc.id,
+                            ...doc.data()
+                        }
+                    })   
+                    // console.log(extractedEnemies)             
+                    setEnemiesList(extractedEnemies)
+                    
+                    findEnemy()
+                }
+                catch(error)
+                {
+                    console.log(error)
+                }
+            }
 
+        if(!location.state)
+        {
+            console.log("yep")            
+            getEnemiesList(); 
+        }
+    
+        // console.log(temp)
+    }, [])
+    
     return (
         <>
             {checkForEnemy()}
