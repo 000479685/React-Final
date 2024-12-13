@@ -10,6 +10,11 @@ import CreatePage from './pages/CreatePage'
 import EnemiesHomePage from './pages/enemies/EnemiesHomePage'
 import SignInPage from './Pages/SignInPage'
 import SignupPage from './pages/SignupPage'
+import MainPage from './pages/MainPage'
+import NoteButton from './components/NoteButton'
+import EnemiesCard from './pages/enemies/EnemiesCard'
+import EnemySearchResults from './pages/enemies/EnemySearchResults'
+import SecretResetPage from './pages/SecretResetPage'
 
 function App() {  
   const routes = useRoutes([
@@ -20,6 +25,14 @@ function App() {
     {
       path: '/home',
       element: <Homepage></Homepage>
+    },
+    {
+      path: '/main',
+      element: <MainPage></MainPage>
+    },
+    {
+      path: 'secret',
+      element: <SecretResetPage></SecretResetPage>
     },
     {
       path: '/signin',
@@ -45,10 +58,20 @@ function App() {
       path: '/enemies',
       element: <EnemiesHomePage/>
     },
-  ]);
+    {
+      path: '/enemies/:enemyName',
+      element: <EnemiesCard></EnemiesCard>
+    },
+    {
+      path: '/enemySearchResults',
+      element: <EnemySearchResults></EnemySearchResults>
+    }
+  ])
+
   return (
     <>
     <Navbar></Navbar>
+    <NoteButton></NoteButton>
     {routes}
     </>
   )

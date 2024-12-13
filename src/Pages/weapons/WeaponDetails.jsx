@@ -8,8 +8,7 @@ import {
   Grid2,
 } from "@mui/material";
 import { useLocation } from "react-router-dom";
-import weapons from "../../Data/Weapons.json";
-import enemy from "../../Data/enemies.json";
+import weapons from "../../data/Weapons.json"
 
 const WeaponDetails = () => {
   const location = useLocation();

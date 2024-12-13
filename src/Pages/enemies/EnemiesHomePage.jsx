@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -10,6 +11,8 @@ import enemiesData from '../../data/enemies.json';
 function EnemiesHomePage() {
 
     const [enemies] = useState(enemiesData.enemies);
+    const [searchLetter, setSearchLetter] = useState('')
+    const navigate = useNavigate();
 
     const truncateText = (text) => {
         const maxLength = 100;
@@ -18,6 +21,17 @@ function EnemiesHomePage() {
         }
         return text;
       };
+
+    const handleDetails = (enemy) => {
+        navigate('/enemiesCard', {state: {enemy}});
+    };
+
+    const handleSearch = () => {
+        const filteredEnemies = enemies.filter((enemy) => 
+            enemy.name.toLowerCase().startsWith(searchLetter.toLowerCase())
+        );            
+        navigate('/enemySearchResults', {state: filteredEnemies})
+    };
 
     // useEffect(
     //     setEnemies(enemiesData)
@@ -49,8 +63,8 @@ function EnemiesHomePage() {
                     role in shaping the gameplay experience.</Typography>
             </Box>
             <Box sx={{display: 'flex', flexDirection: 'row' , marginLeft: '150px', marginRight: '150px'}}>
-                <TextField sx= {{ flexGrow: 1}} label='Search Enemies by Alphabet here'></TextField>
-                <Button variant='contained' color= 'primary' sx={{ marginLeft: '10px' }}>Search</Button>
+                <TextField sx= {{ flexGrow: 1}} label='Search Enemies by Alphabet here' value={searchLetter || ''} onChange={(e) => setSearchLetter(e.target.value)}></TextField>                
+                <Button variant='contained' color= 'primary' sx={{ marginLeft: '10px' }} onClick={handleSearch}>Search</Button>
             </Box>
             <Box sx={{display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
@@ -79,7 +93,7 @@ function EnemiesHomePage() {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">See Details</Button>
+                        <Button size="small" variant='contained' onClick={() => handleDetails(enemy)}>See Details</Button>
                     </CardActions>
                 </Card>
                 ))}

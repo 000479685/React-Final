@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Container, Typography } from "@mui/material";
 import WeaponList from "../../components/weapon_components/WeaponList";
 import NavigationDrawer from "../../components/weapon_components/NavigationDrawer";
-import weapons from "../../Data/Weapons.json";
+import weapons from "../../data/Weapons.json";
 
 const WeaponPage = () => {
   // Filter weapons by type

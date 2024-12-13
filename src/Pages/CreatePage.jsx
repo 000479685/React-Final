@@ -18,7 +18,7 @@ const CreatePage = () =>
     // if the user is not logged in, bring them back to the home page
     useEffect(() =>
     {
-        if(auth.currentUser)
+        if(!auth.currentUser)
         {            
             navigate('/');
         }
@@ -45,7 +45,7 @@ const CreatePage = () =>
             return;
         }
         try {
-            console.log(pageInfo)
+            console.log(typeof(pageInfo), pageInfo)
             await addDoc(pageCollectionReference, pageInfo)
             // setAlertConfig({...alertConfig, message:'Succesfully Created a page', color: 'success', isOpen: true })
         } catch (error) {

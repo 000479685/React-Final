@@ -16,273 +16,194 @@
         },
         {
             "id": 3,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Babooms",
+            "description": "Babooms[1] are enemies that appear in Super Mario Bros. Wonder. They are new type of Bob-omb developed by Bowser's Minions[1] that resemble firecrackers and release a series of three fireworks when stomped on or hit with a fireball, which can be used to break blocks and defeat enemies above them without being able to hurt the player.",
+            "variantOf": "Bob-omb",
+            "image": "https://mario.wiki.gallery/images/4/4c/Hanabihei_%28render%29_-_SMBW.png"
         }
         ,
         {
             "id": 4,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Calorite",
+            "description": "Calorites are fiery enemies found inside the Flab Zone of Bowser's body in Mario & Luigi: Bowser's Inside Story. They are named after the calorie, which is the measurement of heat used to gauge the energy content of food. They will use the two logs in their hands to increase the power of their flames, and then the Calorite will begin rolling while shooting flames at Mario and Luigi. This attack can be avoided by jumping over the flames.",
+            "variantOf": "Tenderling",
+            "image": "https://mario.wiki.gallery/images/b/b1/MLBISBJJCalorite.png"
         }
         ,
         {
             "id": 5,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Dan Spider",
+            "description": "Dan Spiders are a species of spider-like enemies in Donkey Kong Jungle Beat. They act as mini-bosses of every level they appear in, as they are powerful foes, and Donkey Kong must defeat them to continue.They are orange and black in color, with eight legs and three blue eyes. They move around by sidestepping on their two largest legs, which are significantly more immense than the other six and are covered in spikes.",
+            "variantOf": "Beat",
+            "image": "https://mario.wiki.gallery/images/9/9d/Dan_Spider.png"
         }
         ,
         {
             "id": 6,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Enigma",
+            "description": "Enigmas are enemies in Super Mario RPG: Legend of the Seven Stars and its remake. Although an Enigma resembles a large, purple bat with what looks like a pig's snout, the monster is actually a colony of smaller bats that come together to create one larger Enigma. The large Enigma resembles the small bats that make the monster up, and can reform into different shapes, such as an arrow.",
+            "variantOf": "Emigmax",
+            "image": "https://mario.wiki.gallery/images/6/63/Render_Enigma.png"
         }
         ,
         {
             "id": 7,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Fire Bird",
+            "description": "ire birds[1] are enemies found in Fire Mountain and Fire Mountain Plus of Mario vs. Donkey Kong. They spawn from Fire Bird Nests and perform four complete flights across a level, much like birds do, before disappearing. Another fire bird spawns from the same nest shortly afterwards. As soon as they appear from a nest, fire birds will drop an egg covered in flames. They will occasionally try to drop more flaming eggs onto Mario when they spot him underneath. Mario cannot deflect a fire bird's eggs with a handstand like he could do with a bird's eggs, getting burnt if he does so. Mario will also lose a life if he touches a fire bird or a nest. It is impossible to defeat a fire bird..",
+            "variantOf": "Bird (Mario vs. Donkey Kong series)",
+            "image": "https://www.mariowiki.com/images/6/6b/MvDKNSFirebird.png"
         }
         ,
         {
             "id": 8,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Gamboo",
+            "description": "Gamboos[1] are bamboo-like enemies of various colors often seen in stacks that were introduced in Super Mario Bros. Wonder. Green and purple variants were introduced in The Midway Trial: Hop to It, with metallic ones being first shown in Missile Meg Mayhem. Stacks of Gamboos often hide in the ground and pop up when the player gets near. These enemies can be thrown when stomped, being capable of defeating other enemies the same as a Shell, but functioning differently as they instead bounce off the ground a few times before losing momentum.",
+            "variantOf": "Metal Takebō",
+            "image": "https://mario.wiki.gallery/images/f/f4/Takebo_%28render%29_-_SMBW.png"
         }
         ,
         {
             "id": 9,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Hammer",
+            "description": "Hammers are ghosts in Luigi's Mansion 3. They are quite similar to Blue Twirlers from Luigi's Mansion and Slammers from Luigi's Mansion: Dark Moon, They have square heads and attack by charging toward Luigi or Gooigi and hammering the floor, hence their name. Like Slammers, they tend to be more brawny than intelligent. Hammers have 200 HP and two tails, allowing both Luigi and Gooigi to vacuum them at the same time. Whenever they charge, they will cover their eyes with their arms, rendering them immune to the Strobulb for the attack. When they are stunned, they will barely move or take damage unless Luigi or Gooigi moves behind them while they are stunned and then suck them up.",
+            "variantOf": "Bomb Hammer",
+            "image": "https://mario.wiki.gallery/images/9/94/LM3_Hammer_artwork.png"
         }
         ,
         {
             "id": 10,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Ice Bro",
+            "description": "Ice Bros. are a species of Hammer Bro that debuted in New Super Mario Bros. Wii. Ice Bros. resemble ordinary Hammer Bros., but with light cyan shoes, shells and helmets. Instead of throwing hammers, they will throw ice balls at their enemies (similar to how Fire Bros. throw fireballs, except that their ice balls disappear upon hitting the ground after bouncing once).",
+            "variantOf": "Hammer Bro",
+            "image": "https://mario.wiki.gallery/images/3/36/MKT_Artwork_IceBro.png"
         }
         ,
         {
             "id": 11,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Jammyfish",
+            "description": "Jammyfish[1] (originally referred to as jellyfish in a general sense by Prima Games)[2] are underwater jellyfish enemies in Super Mario Galaxy and Super Mario Galaxy 2. They can be defeated with either a spin or a Koopa Shell and give a coin when defeated. They do not actively pursue Mario (or Luigi). Giant versions called Jam-o'-Wars also appear in these games and require two strikes to defeat.In Super Mario Galaxy, Jammyfish are found in underground lakes in the Bigmouth Galaxy and Deep Dark Galaxy. Schools made up of four Jammyfish swim in vertical rings. Isolated Jammyfish passively suspend themselves in water and pulsate their bodies. Direct contact depletes one wedge from Mario's Life Meter.",
+            "variantOf": "Jam-o'-War",
+            "image": "https://mario.wiki.gallery/images/4/4e/SMG2_Artwork_Jammyfish.jpg"
         }
         ,
         {
             "id": 12,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Kamikami",
+            "description": "Kamikami are poisonous variants of the Karikari in Donkey Kong Jungle Beat. They attack similar to Karikari, latching onto Donkey Kong. However, they inject poison into Donkey Kong, causing the player to lose one banana for every Kamikami on him. They are also defeated just like Karikari; if the player claps, the Kamikami will fall off and turn a blue color, immobilized. Donkey Kong can then simply make contact with them to destroy them, leaving behind three bananas. Kamikami do not appear in New Play Control! Donkey Kong Jungle Beat, and they are fully replaced by Karikari.",
+            "variantOf": "Karikari",
+            "image": "https://mario.wiki.gallery/images/1/10/Kamikami.png"
         }
         ,
         {
             "id": 13,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Lakitu",
+            "description": "Lakitus are enemies introduced in Super Mario Bros. They are Koopas that ride clouds through the skies, most often dropping Spiny Eggs down at targets. Some spinoff games include a Lakitu as a referee, including the Mario Kart, Mario Tennis, and Mario Baseball games. The instruction booklets of several spinoff games refer to the Lakitu character in singular form, suggesting against the idea of those games having several Lakitus.",
+            "variantOf": "Koopa",
+            "image": "https://mario.wiki.gallery/images/thumb/8/87/NSMBU_Lakitu_Artwork.png/800px-NSMBU_Lakitu_Artwork.png"
         }
         ,
         {
             "id": 14,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Mad Pokey",
+            "description": "A Mad Pokey is a type of Pokey encountered as enemies in the game Super Princess Peach.Mad Pokey are crimson red in contrast to a Pokey's bright yellow, Mad Pokeys also have a more sinister appearance than regular Pokey, having large, spikey flowers on their heads. Mad Pokeys can stretch their bodies upwards in order to limit Princess Peach and Perry's progress. A Mad Pokey can be defeated either with the power of Rage or by using the Poundbrella attack.",
+            "variantOf": "Pokey",
+            "image": "https://mario.wiki.gallery/images/f/fb/SPP_Mad_Pokey.png"
         }
         ,
         {
             "id": 15,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Noknok",
+            "description": "Noknoks[1] are teal enemies with sharp teeth, yellow feet, and purple legs that disguise as Warp Doors. They are introduced in Super Mario Bros. Wonder and appear only in Light-Switch Mansion, KO Arena Fungi Funk and The Final Battle! Bowser's Rage Stage. Noknoks do not move in their calm state, but when the player approaches a disguised Noknok, the enemy reveals itself by screaming and rushing toward the player (if the player has the Invisibility badge equipped, it will simply bounce the player back). It can jump one block and may try to jump to a player on a different platform even if it cannot reach them, only stopping when the player is far away.",
+            "variantOf": "Mad Piano",
+            "image": "https://mario.wiki.gallery/images/3/37/SMBW_Screenshot_Door_Enemy.png"
         }
         ,
         {
             "id": 16,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Octoboo",
+            "description": "Octoboos[1] are enemies in Super Mario Galaxy 2. They are encountered in Haunty Halls Galaxy, Boo Moon Galaxy, and Flash Black Galaxy as regular enemies. They are Boos shaped like Octoombas, and Octoboos move around primarily by floating in a set area. Octoboos cannot be defeated, but they become transparent when the player uses a spin near them or from Yoshi's tongue. Octoboos also make small Octoomba sounds if Mario or Luigi is close to them. Unlike most members of the Octoomba family, they do not spit rocks.",
+            "variantOf": "Octoomba",
+            "image": "https://mario.wiki.gallery/images/d/d7/SMG2_Octoboo_Artwork.png"
         }
         ,
         {
             "id": 17,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Panser",
+            "description": "Pansers are enemies commonly found in Yume Kōjō: Doki Doki Panic and Super Mario Bros. 2. Their name is a portmanteau of pansy which is a type of flower, and Panzer the German word for tank perhaps in reference to a Panser's ability to throw fireballs. Along with Pokeys, Pansers are the only known hostile plant species in Subcon, although Pansers were created by Wart. There are three types of Pansers: red, pink, and either green or gray depending on the location. The red version stays in one place and shoots two fireballs in the player's direction, the green/gray variant (both just green in the reissues) stays in one place and shoots fireballs straight up, and the most powerful, the pink (blue in the reissues), chases the player and shoots fireballs towards them. These enemies can be defeated only by throwing another enemy or an item, such as a vegetable or Mushroom Block, at them.",
+            "variantOf": "Lava Lotus",
+            "image": "https://mario.wiki.gallery/images/6/67/Panser.jpg"
         }
         ,
         {
             "id": 18,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "name":"Reachers",
+            "description": "Reachers are skeletal ghosts who inhabit the Sunken Ship in the game Super Mario RPG: Legend of the Seven Stars and its remake. They resemble large, sad, humanoid skeletons whose bodies are obscured by tombstones. Reachers attack by reaching towards a party member (hence the name) with their long skeletal arms. They can also attack by hurling a large bone (similar to Dry Bones) or by singing Elegy, which prevents a party member from using magic. Like most powerful enemies in Super Mario RPG: Legend of the Seven Stars, only one Reacher appears at a time in battle. Reachers are aided by other ghouls in combat like Greapers.",
             "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "image": "https://mario.wiki.gallery/images/7/7d/SMRPG_NS_Reacher.png"
         }
         ,
         {
             "id": 19,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Satellite",
+            "description": "Satellites[1][2] are obstacles in Super Mario Land 2: 6 Golden Coins. These spinning spiked objects appear in the final stage of the Mario Zone only. Satellites are almost entirely invincible and spin around spheres similarly to a Roto-Disc or its Super Mario Land counterpart (with Perfect Ban Mario Character Daijiten even suggesting that the satellites might be a mechanical version of the former),[3] though they are a bit slower. They can be defeated only by running into them while invincible.",
+            "variantOf": "Roto-Disc",
+            "image": "https://mario.wiki.gallery/images/8/87/SML2_Artwork_-_Satellite.png"
         }
         ,
         {
             "id": 20,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Terrapin",
+            "description": "Terrapins are armored, green-shelled Koopa Troopas that appear in Super Mario RPG: Legend of the Seven Stars and its remake. In the game, they are the weakest soldiers in Bowser's Minions, even weaker than a Goomba. In Marrymore, a type called Torte acts as a chef, and a similar, stronger enemy is the red-shelled Terra Cotta. The word terrapin is an ambiguous term referring to turtles, which Koopas are quite similar to.Terrapins fight solo or in groups of two to four and attack their opponents by punching, which does not do much damage. They patrol the halls of Bowser's Keep in search of intruders, and appear mostly in the very beginning of the game, before Exor crashes into Bowser's Keep. They have 10 HP and 1 attack power, and 8 defense. In the original game, Mario gains no Exp. pts. for defeating them, though they do give 1 EXP in the remake.",
+            "variantOf": "Koopa Troopa",
+            "image": "https://mario.wiki.gallery/images/8/84/SMRPG_NS_Terrapin.png"
         }
         ,
         {
             "id": 21,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Urchin",
+            "description": "Urchins are spiked aquatic creatures that have appeared as enemies and obstacles throughout the Super Mario franchise. As their name and appearance suggest, they are based on real-life sea urchins. They are slow, yet tough enemies that Mario or Luigi must avoid usually because they cannot be defeated by normal means, like a single jump. Although they live mostly underwater, Urchins can also live on land. They first appeared in Super Mario World. Their original Japanese name (Unira) is shared with the enemy Unira from Clu Clu Land.",
+            "variantOf": "Unira",
+            "image": "https://mario.wiki.gallery/images/thumb/4/48/NSMBU_Urchin_Artwork.png/1200px-NSMBU_Urchin_Artwork.png"
         }
         ,
         {
             "id": 22,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Virus",
+            "description": "A virus is a germ-based enemy found in the Dr. Mario series. Viruses most often appear in three colors – Red, Blue, and Yellow – however, in later games in the series including Dr. Luigi and Dr. Mario World, a larger variety of colors and types are present. To defeat a virus, usually Dr. Mario must line up three Capsule pieces of the same color next to the virus of that color. The virus, along with the capsules, will then disappear. In most Dr. Mario games, after clearing one jar of viruses, Dr. Mario will move to the next one, with each jar containing increasingly more viruses.",
+            "variantOf": "Dizziness Virus",
+            "image": "https://mario.wiki.gallery/images/7/73/DrMarioWorld_-_Viruses.png"
         }
         ,
         {
             "id": 23,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Walbrick",
+            "description": "Walbricks are enemies appearing in Donkey Kong Country: Tropical Freeze and its Nintendo Switch port. They are Waldoughs with long mustaches, brown skin, and a leather belt tied around a pair of blue trousers. They are also covered in orange armor and wield a large, round wooden shield. Walbricks sport longer whiskers than common Waldoughs and Walnuts, obscuring their tusks.Due to their thorough equipment, Walbricks can deflect any stomp or frontal Roll Attack. Although their rear sides are unprotected, Walbricks turn around with their shields as the Kongs jump over them to reach the other side. However, the Walbrick can be stunned for a brief period of time by stomping on its helmet. This makes it dizzy and allows the Kongs to attack it from behind with a roll. To defeat a Walbrick, the Kongs have to perform three such roll attacks. Alternatively, they can throw a barrel or charge Rambi into one.",
+            "variantOf": "Waldough",
+            "image": "https://mario.wiki.gallery/images/d/dc/Viking_Artwork_-_DKC_Tropical_Freeze.png"
         }
         ,
         {
             "id": 24,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"X-Naut",
+            "description": "X-Nauts are soldiers of the eponymous organization that are under the command of Sir Grodus and Lord Crump in Paper Mario: The Thousand-Year Door and its remake. They are short and individually weak, but rush to defend their leader, Lord Crump, if he is threatened; a large army of X-Nauts (exceeding any count of X-Nauts seen where they are standard enemies) is often summoned by Lord Crump. It is unknown what is behind their uniform, as they do not show their true appearance, just like a Shy Guy. X-Nauts are known in a pre-release English localization of Paper Mario: The Thousand-Year Door as Boomer Gangers.",
+            "variantOf": "Elite X-Naut",
+            "image": "https://mario.wiki.gallery/images/3/36/PMTTYD_NS_X_Naut_Artwork.png"
         }
         ,
         {
             "id": 25,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Yo Bro",
+            "description": "The Yo Bro is a Hammer Bro variant that appears in Mario & Luigi: Superstar Saga and its remake, Mario & Luigi: Superstar Saga + Bowser's Minions. It is encountered at Woohoo Hooniversity, where it only appears in battle alongside other enemies such as Laser Snifits. Its name and appearance reference hip-hop culture, with yo and bro being commonly-used slang; the name is also a portmanteau on yo-yo and Hammer Bro. It sports a fez with a small bean sprout on the front, a medallion on its neck, and two yo-yos based on Koopa Shells, one red and one green.",
+            "variantOf": "Hammer Bro",
+            "image": "https://mario.wiki.gallery/images/f/fd/MLSSBMYoBroIdle.gif"
         }
         ,
         {
             "id": 26,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
-        },
-        {
-            "id": 27,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
-        }
-        ,
-        {
-            "id": 28,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
-        }
-        ,
-        {
-            "id": 29,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
-        }
-        ,
-        {
-            "id": 30,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
-        }
-        ,
-        {
-            "id": 31,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
-        }
-        ,
-        {
-            "id": 32,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
-        }
-        ,
-        {
-            "id": 33,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
-        }
-        ,
-        {
-            "id": 34,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
-        }
-        ,
-        {
-            "id": 35,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
-        }
-        ,
-        {
-            "id": 36,
-            "name":"Air Cannon",
-            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
-            "variantOf": "Bill Blaster",
-            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+            "name":"Zeostar",
+            "description": "Zeostars are green relatives of Starslaps in Super Mario RPG: Legend of the Seven Stars and its remake. They are encountered in the sea and Bowser's Keep, and spend most of their time sleeping. In battle, Zeostars attack by hitting a party member with their arms, or using Viro Plasm to inflict Poison. If hit with a physical attack, they use Recover to heal themselves or an ally. If a character uses the Star Egg item, two Zeostars and a Starslap dance around the screen.",
+            "variantOf": "Starslap",
+            "image": "https://mario.wiki.gallery/images/3/3f/SMRPG_NS_Zeostar.png"
         }
     ]
 }
