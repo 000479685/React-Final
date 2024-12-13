@@ -7,8 +7,8 @@ const HomePage = () =>
 {
     return (
         <>
-        <Box>
-            <Typography variant="h2">Not Copyright-infringing Wiki Name</Typography>
+        <Box sx={{bgcolor:'gray', height:'300px'}}>
+            <Typography variant="h2" sx={{textShadow:'2px 2px 3px white', marginLeft:'20px'}}>Not Copyright-infringing Wiki Name</Typography>
             <Box display={'flex'} margin={'50px'}>
             <Card style={{boxShadow:'2px 2px 5px black',  width:'150px', justifyContent:'center', alignContent:'center'}}>
                 <Link to={'/main'} style={{textDecoration:'none'}}>

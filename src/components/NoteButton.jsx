@@ -183,7 +183,7 @@ const NoteButton = () =>
                 <Box position='fixed' top='5%' sx={{zIndex:99}}>
                     <Button onClick={handleClose} variant="contained">Close</Button>
                 </Box>
-            <Box display={'flex'} flexDirection={'column'} sx={{background:'rgba(0,0,0,0.6)'}}>
+            <Box display={'grid'} gridAutoColumns={'1'} sx={{background:'rgba(0,0,0,0.6)', overflowY:'auto', maxHeight:'900px', top:'10%'}}>
                 {
                     pageRelevantNotes.map((note, index) => 
                     {
