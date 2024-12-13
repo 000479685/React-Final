@@ -1,0 +1,30 @@
+.characterNavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; /* Same width across all pages */
+    height: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .characterNavbar a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+  
+  .characterNavbar a:hover {
+    color: orange;
+  }
+  
+  .main-content {
+    margin-left: 200px; /* Matches navbar width */
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+  }

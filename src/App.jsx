@@ -17,6 +17,7 @@ import CharacterDetailsPage from './pages/characters/CharacterDetailsPage'
 import CharactersPage from './pages/characters/CharacterPage'
 import SignInPage from './pages/SignInPage'
 import WeaponPage from './pages/weapons/WeaponPage'
+import CharacterNavbar from './components/character_components/CharacterNavBar'
 
 function App() {  
   const routes = useRoutes([
@@ -70,11 +71,11 @@ function App() {
     },
     {
       path: '/characters_home',
-      element: <CharacterHomePage></CharacterHomePage>
+      element: (<><CharacterNavbar/><CharacterHomePage/></>)
     },
     {
       path: '/characters',
-      element: <CharactersPage></CharactersPage>
+      element: (<><CharacterNavbar/><CharactersPage/></>)
     },
     {
       path: '/characters/:characterId',
