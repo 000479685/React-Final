@@ -5,24 +5,66 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
 import { Box } from '@mui/material';
+import { collection, getDocs } from 'firebase/firestore';
+import { db } from '../../firebaseConfig';
+import { useEffect, useState } from 'react';
 
 function EnemiesCard() {
-    const { state } = useLocation();
-    const enemy = state?.enemy;
+    
+    const enemiesCollectionReference = collection(db, "enemies")
+    
+    const [enemiesList, setEnemiesList] = useState([]);    
+    const [enemy, setEnemy] = useState(null)
 
-    if (!enemy) {
-        return (
-            <Typography
-                variant="h6"
-                sx={{ textAlign: 'center', marginTop: '20px' }}
-            >
-                No enemy data available.
-            </Typography>
-        );
+    const getEnemiesList = async () => 
+    {
+        const enemiesDoc = await getDocs(enemiesCollectionReference);                        
+        const extractedEnemies = enemiesDoc.docs.map((doc) => 
+        {
+            return {
+                id: doc.id,
+                ...doc.data()
+            }
+        })
+
+        setEnemiesList(extractedEnemies)
     }
 
-    return (
-        <Box
+    
+    const findEnemy = (enemyData) =>
+        {
+            // console.log(enemyName, enemyData.name == enemyName)
+            return enemyData.name == enemyName
+        }
+        
+        const location = useLocation();
+        const regex = '/\/enemies\//i'
+        const enemyName = location.pathname.slice(location.pathname.search(regex) + 10);        
+        
+        
+    useEffect(() => {
+        getEnemiesList();
+        const temp = enemiesList.find(findEnemy)
+        // console.log(temp)
+        setEnemy(temp)        
+    }, [])
+
+
+    const checkForEnemy = () =>
+    {        
+        if (!enemy) {
+            return (
+                <Typography
+                    variant="h6"
+                    sx={{ textAlign: 'center', marginTop: '20px' }}
+                >
+                    No enemy data available.
+                </Typography>
+            );
+        }
+
+        return (
+            <Box
             sx={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -62,6 +104,15 @@ function EnemiesCard() {
                 </CardActionArea>
             </Card>
         </Box>
+        )
+    }
+
+
+
+    return (
+        <>
+            {checkForEnemy()}
+        </>
     );
 }
 

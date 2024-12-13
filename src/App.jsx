@@ -16,6 +16,7 @@ import SecretResetPage from './pages/SecretResetPage'
 import CharacterHomePage from './pages/characters/CharacterHomePage'
 import CharacterDetailsPage from './pages/characters/CharacterDetailsPage'
 import CharactersPage from './pages/characters/CharacterPage'
+import SignInPage from './pages/SignInPage'
 
 function App() {  
   const routes = useRoutes([

@@ -23,7 +23,7 @@ function EnemiesHomePage() {
       };
 
     const handleDetails = (enemy) => {
-        navigate('/enemiesCard', {state: {enemy}});
+        navigate(`/enemies/${enemy.name}`, {state: {enemy}});
     };
 
     const handleSearch = () => {
