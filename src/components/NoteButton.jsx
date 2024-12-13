@@ -144,7 +144,7 @@ const NoteButton = () =>
         if(checkIfValidPage() && checkForUserLoggedIn())            
         {
             getNotesList()
-            // console.log(pageRelevantNotes)
+            console.log(pageRelevantNotes)
         }
     }, [])
 
@@ -160,14 +160,14 @@ const NoteButton = () =>
                 <Box position='fixed' top='5%'>
                     <Button onClick={handleClose} variant="contained">Close</Button>
                 </Box>
-                <Box display={'flex'} flexDirection={'column'} >
+                <Box display={'flex'} flexDirection={'column'} sx={{background:'rgba(0,0,0,0.6)'}}>
                 {
                     pageRelevantNotes.map((note, index) => 
                     {
                         return <Typography key={index} sx={{textShadow:"5px 5px 5px rgb(54, 54, 54)"}}>{note.content}</Typography>
                     })
                 }
-                <Box component={'form'} sx={{ '& .MuiTextField-root': { m: 1, width: '25ch' } }}>
+                <Box component={'form'} sx={{ '& .MuiTextField-root': { m: 1, width: '25ch' }, opacity:1}}>
                 {/* <FormControl> */}
                     <FormLabel id="NewNoteForm">New Notes</FormLabel>
                     <TextField
@@ -175,9 +175,10 @@ const NoteButton = () =>
                         label="New Note"
                         placeholder="Type your new note in"
                         variant="filled"
-                        multiline
-                        sx={{input:{color:'white'}}}
+                        multiline                        
+                        sx={{input:{color:'white'}, boxShadow:'2px 2px 5px black'}}
                         rows={5}
+                        fullWidth
                         value={newNoteText}
                         onChange={(e) => {setNewNotetext(e.target.value), setNotesInfo({...notesInfo, ["content"]:e.target.value})}}
                     />
