@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import {useRoutes} from 'react-router-dom'
 import Navbar from './components/Navbar'
-import WeaponPage from './pages/weapons/WeaponPage'
 import Homepage from './pages/HomePage'
 import './App.css'
 import MainPage from './pages/MainPage'
@@ -17,6 +16,7 @@ import CharacterHomePage from './pages/characters/CharacterHomePage'
 import CharacterDetailsPage from './pages/characters/CharacterDetailsPage'
 import CharactersPage from './pages/characters/CharacterPage'
 import SignInPage from './pages/SignInPage'
+import WeaponPage from './pages/weapons/WeaponPage'
 
 function App() {  
   const routes = useRoutes([
