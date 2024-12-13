@@ -1,20 +1,24 @@
 import React from "react";
 import {
-  Card,
-  CardMedia,
-  CardContent,
-  Typography,
-  Box,
-  Grid2,
-} from "@mui/material";
+  Card,CardMedia, CardContent, Typography, Box, Grid2 ,} from "@mui/material";
 import { useLocation } from "react-router-dom";
+import weapons from "../../Data/Weapons.json"
 
 const WeaponDetails = () => {
   const location = useLocation();
-  const weapon = location.state?.weapon;
+
+  //get weapon name from url
+  const index = location.pathname.search(/\/weapons\//i);
+  console.log(index);
+  const weapName =  index !== -1 ? location.pathname.substring(index + 9): null
+  const weapon = weapons.weapons.find((w) => w.name.toLowerCase() === weapName?.toLowerCase());
 
   if (!weapon) {
-    return <Typography variant="h5">Weapon not found!</Typography>;
+    return (     
+        <Typography variant="h5" align="center">
+          Weapon not found!
+        </Typography>
+    );
   }
 
   return (

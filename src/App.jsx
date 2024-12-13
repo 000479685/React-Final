@@ -7,6 +7,9 @@ import './App.css'
 import MainPage from './Pages/MainPage'
 import WeaponDetails from './Pages/weapons/WeaponDetails';
 import CreatePage from './pages/CreatePage'
+import EnemiesHomePage from './pages/enemies/EnemiesHomePage'
+import SignInPage from './pages/SignInPage'
+import SignupPage from './pages/SignupPage'
 
 function App() {  
   const routes = useRoutes([
@@ -15,7 +18,18 @@ function App() {
       element: <Homepage />
     },
     {
-      //productdetails Page
+      path: '/home',
+      element: <Homepage></Homepage>
+    },
+    {
+      path: '/signin',
+      element: <SignInPage></SignInPage>
+    },
+    {
+      path: '/signup',
+      element: <SignupPage></SignupPage>
+    },
+    {      
       path: '/weapons',
       element: <WeaponPage />
     },
@@ -27,6 +41,15 @@ function App() {
       path: '/create',
       element: <CreatePage/>
     },
+    {
+      path: '/weapons/:weaponName',
+      element: <WeaponDetails/>
+    },    
+    {
+      path: '/enemies',
+      element: <EnemiesHomePage/>
+    },
+  ])
 
   ]);
   return (

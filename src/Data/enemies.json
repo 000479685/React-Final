@@ -1,0 +1,288 @@
+{
+    "enemies":[
+        {
+            "id": 1,
+            "name":"Ack",
+            "description": "These small, red creatures are encountered in Itty Bitty Biters only. They are a stronger and faster variant of Toothberries and also have sharp teeth. Acks are also related to AckStacks and Cageberries.They can jump higher than Toothberries, and Donkey Kong can defeat them by jumping on them twice (unlike Toothberries, who are instantly defeated from a single jump). Acks can be instantly defeated from a Kong Roll. If Donkey Kong and Diddy Kong get in contact with an Ack, they lose a heart.",
+            "variantOf": "Toothberry",
+            "image": "https://mario.wiki.gallery/images/f/fd/Toothcherry.png"
+        },
+        {
+            "id": 2,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://mario.wiki.gallery/images/0/08/MLBISBJJAirCannonWithCannon.png"
+        },
+        {
+            "id": 3,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 4,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 5,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 6,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 7,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 8,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 9,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 10,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 11,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 12,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 13,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 14,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 15,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 16,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 17,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 18,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 19,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 20,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 21,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 22,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 23,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 24,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 25,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 26,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        },
+        {
+            "id": 27,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 28,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 29,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 30,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 31,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 32,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 33,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 34,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 35,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+        ,
+        {
+            "id": 36,
+            "name":"Air Cannon",
+            "description": "The Air Cannon is an enemy that can only be found inside the Airway in Mario & Luigi: Bowser's Inside Story when pursuing the Dark Star. It is a teal-colored egg creature that has been influenced by the Dark Star, and operates a pink Bill Blaster on wheels.",
+            "variantOf": "Bill Blaster",
+            "image": "https://www.mariowiki.com/Air_Cannon#/media/File:MLBISBJJAirCannonWithCannon.png"
+        }
+    ]
+}
