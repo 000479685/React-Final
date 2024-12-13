@@ -16,10 +16,14 @@ const validRoutes =
 const NoteButton = () =>
 {
     let location = useLocation();
-
+    
     const [notesInfo, setNotesInfo] = useState({
         page:  location.pathname,
         content: ''
+    })
+
+    const [targetDocData, setTargetDocData] = useState({
+
     })
 
     const userNotesCollectionReference = collection(db, "userNotes")
@@ -58,17 +62,21 @@ const NoteButton = () =>
                 }
             )
 
-            // TODO : GET SINGLE DOCUMENT ELEMENT SO THAT NOTES CAN BE PROPERLY UPDATED
-            const testDocFind = await getDoc(doc(db, "userNotes"))
-            console.log(testDocFind)
+            
+            const testDoc = doc(db, "userNotes", correctEmailDoc[0].id)
+            const testDocFind = await getDoc(testDoc)
+            // console.log(testDocFind, correctEmailDoc[0].id)
 
-            setTargetDoc(correctEmailDoc)
-            console.log(correctEmailDoc)
-            const temp = correctEmailDoc.filter((note) =>
+            setTargetDoc(testDoc)
+            // console.log(correctEmailDoc)
+            const temp = testDocFind.data().notes.filter((note) =>
             {
                 return location.pathname.includes(note.page);
             })
             setPageRelevantNotes(temp)
+            // console.log(temp)
+            // console.log(testDocFind.data(), testDocFind.data().notes)
+            setTargetDocData(testDocFind.data())
         }
         catch(error)
         {
@@ -119,8 +127,11 @@ const NoteButton = () =>
     const createNote = async () =>
     {        
         try{            
-            console.log("adding a note")
-            await updateDoc(userNotesCollectionReference, notesInfo, targetDoc.id)
+            // console.log("adding a note", notesInfo)
+            // console.log(targetDocData.notes)
+            targetDocData.notes.push(notesInfo)
+            // console.log(targetDocData, targetDoc)            
+            await updateDoc(targetDoc, targetDocData)
         }
         catch (error)
         {

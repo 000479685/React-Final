@@ -20,9 +20,7 @@ const SignupPage = () => {
 
     const [userNotesDetails, setUserNotesDetails] = useState({
         email: '',
-        notes: {
-
-        }
+        notes: []
     })
 
     const handleSignup = async () =>
