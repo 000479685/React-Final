@@ -129,6 +129,10 @@ const NoteButton = () =>
         try{            
             // console.log("adding a note", notesInfo)
             // console.log(targetDocData.notes)
+            if(!targetDocData.notes)
+            {
+                targetDocData.notes = []
+            }
             targetDocData.notes.push(notesInfo)
             // console.log(targetDocData, targetDoc)            
             await updateDoc(targetDoc, targetDocData)

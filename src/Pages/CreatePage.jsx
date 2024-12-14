@@ -69,7 +69,9 @@ const CreatePage = () =>
                 case "weapons":
                     await addDoc(weaponsCollectionReference, pageInfo)
                 case "enemies":
+                    await addDoc(enemiesCollectionReference, pageInfo)
                 case "characters":
+                    await addDoc(charactersCollectionReference, pageInfo)
             }
             // await addDoc(pageCollectionReference, pageInfo)
             // setAlertConfig({...alertConfig, message:'Succesfully Created a page', color: 'success', isOpen: true })
