@@ -2,6 +2,7 @@ import React from "react";
 import CharacterCard from "../../components/character_components/CharacterCard";
 import "./CharacterHomePage.css";
 import characterData from "../../data/CharacterData.json"; // Import the JSON data
+import Sidebar from "../../components/character_components/Sidebar";
 
 function CharacterHomePage() {
   const featuredCharacters = characterData.slice(0, 2); // Select featured characters
@@ -9,6 +10,7 @@ function CharacterHomePage() {
 
   return (
     <div className="homepage">
+      <Sidebar />
       <header className="header">
         <h1>Game Characters Wiki</h1>
         <nav className="header-nav">

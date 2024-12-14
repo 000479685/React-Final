@@ -12,12 +12,12 @@ import NoteButton from './components/NoteButton'
 import EnemiesCard from './pages/enemies/EnemiesCard'
 import EnemySearchResults from './pages/enemies/EnemySearchResults'
 import SecretResetPage from './pages/SecretResetPage'
-import CharacterHomePage from './pages/characters/CharacterHomePage'
-import CharacterDetailsPage from './pages/characters/CharacterDetailsPage'
-import CharactersPage from './pages/characters/CharacterPage'
+import CharacterHomePage from './Pages/characters/CharacterHomePage'
+import CharacterDetailsPage from './Pages/characters/CharacterDetailsPage'
+import CharactersPage from './Pages/characters/CharactersPage'
 import SignInPage from './pages/SignInPage'
 import WeaponPage from './pages/weapons/WeaponPage'
-import CharacterNavbar from './components/character_components/CharacterNavBar'
+// import CharacterNavbar from './components/character_components/CharacterNavBar'
 
 function App() {  
   const routes = useRoutes([
@@ -71,11 +71,11 @@ function App() {
     },
     {
       path: '/characters_home',
-      element: (<><CharacterNavbar/><CharacterHomePage/></>)
+      element: (<CharacterHomePage/>)
     },
     {
       path: '/characters',
-      element: (<><CharacterNavbar/><CharactersPage/></>)
+      element: (<CharactersPage/>)
     },
     {
       path: '/characters/:characterId',

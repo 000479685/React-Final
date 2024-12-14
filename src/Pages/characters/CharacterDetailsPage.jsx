@@ -2,7 +2,6 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import "./CharacterDetailsPage.css";
 
-
 function CharacterDetailsPage() {
   const location = useLocation();
   const character = location.state?.character; // Get the full character object from state

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CharacterData from "../../data/CharacterData.json"; // Import JSON file
-import "./CharacterPage.css";
-
+import "./CharactersPage.css";
+import Sidebar from "../../components/character_components/Sidebar";""
 function CharactersPage() {
   const [selectedCharacter, setSelectedCharacter] = useState(null); // State for selected character
   const [isModalOpen, setIsModalOpen] = useState(false); // State for modal visibility
@@ -18,6 +18,7 @@ function CharactersPage() {
 
   return (
     <div className="characters-page">
+      <Sidebar/>
       <main className="main-content">
         <h1 className="page-title">All Characters</h1>
         <div className="character-list">

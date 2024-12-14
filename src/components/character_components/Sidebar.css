@@ -1,0 +1,31 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px; /* Same width across all pages */
+  height: 100%;
+  
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.sidebar a:hover {
+  color: orange;
+}
+
+.main-content {
+  margin-left: 200px; /* Matches sidebar width */
+  padding: 20px;
+  background-color: green;
+  color: #fff;
+  min-height: 100vh;
+}

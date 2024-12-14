@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./CharacterNavbar.css";
+import "./Sidebar.css";
 
-function CharacterNavbar() {
+function Sidebar() {
   return (
-    <div className="characterNavbar">
+    <div className="sidebar">
       <ul>
         <li>
           <Link to="/characters_home">Featuring Characters</Link>
@@ -17,4 +17,4 @@ function CharacterNavbar() {
   );
 }
 
-export default CharacterNavbar;
+export default Sidebar;
